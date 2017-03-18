@@ -6,7 +6,7 @@ image: Visual Studio 2017
 configuration: Release
 platform: Any CPU
 build:
-  project: WebApplication1
+  project: WebApplication1.sln
   verbosity: minimal
 before_build:
   - nuget restore
