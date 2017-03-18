@@ -9,4 +9,4 @@ build:
   project: WebApplication1\WebApplication1.sln
   verbosity: minimal
 before_build:
-  - nuget restore
+  - nuget restore WebApplication1
